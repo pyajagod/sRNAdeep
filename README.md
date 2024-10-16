@@ -1,5 +1,5 @@
 # BSRD data
-We have backed up the sRNA data provided in the BSRD database in BSRD_data, please cite the paper first if you want to use it**Li L, Huang D, Cheung M K, et al. BSRD: a repository for bacterial small regulatory RNA[J]. Nucleic acids research, 2013, 41(D1): D233-D238.**
+We have backed up the sRNA data provided in the BSRD database in BSRD_data, please cite the paper first if you want to use it.[Li L, Huang D, Cheung M K, et al. BSRD: a repository for bacterial small regulatory RNA[J]. Nucleic acids research, 2013, 41(D1): D233-D238.](https://academic.oup.com/nar/article/41/D1/D233/1072873)
 
 # sRNAdeep
 
