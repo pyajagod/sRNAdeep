@@ -3,7 +3,7 @@ We have backed up the sRNA data provided in the BSRD database in BSRD_data, plea
 
 # sRNAdeep
 
-This repository includes the code used in our sRNAdeep method
+This repository includes the code used in our sRNAdeep method.To use or refer to the sRNAdeep method, cite [Qian W, Sun J, Liu T, et al. sRNAdeep: a novel tool for bacterial sRNA prediction based on DistilBERT encoding mode and deep learning algorithms[J]. BMC genomics, 2024, 25(1): 1021.](https://link.springer.com/article/10.1186/s12864-024-10951-6)
 
 ## Code overview
 
