@@ -41,19 +41,19 @@ def parse_blast_results(output_file):
 
 def do_blastn(rna_file, output_file, csv_output_file, db_name):
 
-    # 运行BLASTN
+    # run BLASTN
     run_blastn(rna_file, db_name, output_file)
 
-    # 解析BLAST结果
+    # get the result of BLAST
     results = parse_blast_results(output_file)
 
-    # 保存结果到CSV文件
+    # save results to csv file
     results.to_csv(csv_output_file, index=False)
     print(f"Results saved to {csv_output_file}")
 
 
 def main(args):
-    # 创建BLAST数据库
+    # create BLAST database
     db_name = "human_protein_genes_db"
     subprocess.run(
         [
@@ -97,4 +97,3 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     main(args)
-    # main()
