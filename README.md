@@ -7,6 +7,9 @@ This repository includes the code used in our sRNAdeep method.To use or refer to
 
 ## Code overview
 
+### the trained model
+please download the model from the Kaggle platform: [link](https://www.kaggle.com/datasets/accessibletracy/textcnn-gan-model)
+
 ### 0. 00-do_blastn.py
 Use ` python 00-do_blastn.py fasta_folder ` to filter the test set for matches to the training set.
 
